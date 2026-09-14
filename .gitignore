@@ -1,0 +1,53 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Bb]uilds/
+[Bb]uild/
+[Mm]emoryCaptures/
+*.csproj
+*.sln
+.vs/
+*.user
+*.userprefs
+
+# Unreal
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Godot
+.godot/
+export_presets.cfg
+*.translation
+.import/
+
+# Native / OpenXR
+cmake-build-*/
+build/
+out/
+compile_commands.json
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.keystore
+*_secret*
+signing/
+steamworks_sdk/
